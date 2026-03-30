@@ -25,7 +25,7 @@ while cola:
 
     if estacion_actual == punto_b:
         print("¡Sí, hemos llegado al destino!")
-        print("Recorido realizado: ", ruta_realizada)
+        print("Recorrido realizado: ", ruta_realizada)
         print("Mejor ruta para tomar: ", camino)
         break
     else:

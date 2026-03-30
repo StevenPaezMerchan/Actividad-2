@@ -26,7 +26,7 @@ while cola_principal:
         if estacion_actual == punto_b:
             print("¡Sí, hemos llegado al destino!")
             print("El peso actual: ", peso_actual)
-            print("Recorido realizado: ", ruta_recorrida)
+            print("Recorrido realizado: ", ruta_recorrida)
             break
 
         for vecino in grafo_dijkstra[estacion_actual]:
